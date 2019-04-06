@@ -133,7 +133,9 @@ ol {
 img {
   height: auto;
   max-width: 100%; }
-
+.single-gallery-item  img {
+    height: 300px;
+    max-width: 100%; }
 .medica-table {
   display: table;
   z-index: 9;
@@ -782,7 +784,7 @@ textarea {
     margin-right: 30px;
     text-align: center;
     line-height: 64px;
-    font-size: 40px;
+    font-size: 30px;
     background-color: #cacaca;
     border-radius: 50%;
     color: #ffffff;
@@ -811,8 +813,8 @@ textarea {
   .single-gallery-item::after {
     background-color: rgba(0, 108, 255, 0.75);
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 400px;
+    height: 400px;
     top: 0;
     left: 0;
     z-index: 2;
@@ -831,7 +833,7 @@ textarea {
     transition-duration: 500ms; }
     .single-gallery-item .view-more-btn a {
       background-color: transparent;
-      font-size: 20px;
+      font-size: 16px;
       color: #ffffff;
       display: block;
       box-shadow: none;
@@ -1005,7 +1007,7 @@ textarea {
   z-index: 1;
   padding-top: 150px; }
   .breadcumb-area .breadcumb-title {
-    font-size: 68px;
+    font-size: 60px;
     margin-bottom: 0; }
     @media only screen and (max-width: 767px) {
       .breadcumb-area .breadcumb-title {
@@ -1283,7 +1285,7 @@ textarea {
       line-height: 35px;
       text-align: center;
       position: absolute;
-      font-size: 20px;
+      font-size: 15px;
       font-weight: 400;
       top: 20px;
       left: 20px;
@@ -1321,23 +1323,22 @@ textarea {
   z-index: 1; }
 .search-widget-area input[type=search] {
   width: 100%;
-  height: 90px;
+  height: 50px;
   background-color: #f5f7f9;
   border: none;
-  font-size: 22px;
+  font-size: 12px;
   font-style: italic;
   padding: 0 15px; }
 .search-widget-area input[type=submit] {
   width: 80px;
   height: 50px;
   background-color: transparent;
-  align:center;
   border: none;
-  font-size: 20px;
+  font-size: 14px;
   color: #006cff;
   font-weight: 500;
   padding: 0 15px;
-  position: relative;
+  position: absolute;
   top: 0;
   right: 0;
   cursor: pointer; }
@@ -1531,7 +1532,7 @@ textarea {
 .contact-social-area {
   margin-top: 30px; }
   .contact-social-area a {
-    font-size: 26px;
+    font-size: 16px;
     display: inline-block;
     margin-right: 15px;
     color: #b4b4b4; }
